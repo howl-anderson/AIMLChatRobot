@@ -1,0 +1,102 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <!-- basic_chat.aiml -->
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Well, hello!
+        </template>
+    </category>
+    <category>
+        <pattern>你好</pattern>
+        <template>
+            欢迎使用Silly聊天机器人
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE YOU</pattern>
+        <template>
+            I'm a bot, silly!
+        </template>
+    </category>
+    <category>
+        <pattern>你是谁</pattern>
+        <template>
+            我只是一个机器人，笨蛋！
+        </template>
+    </category>
+    <category>
+        <pattern>
+            你是男的女的
+        </pattern>
+        <template>
+            不告诉你!
+        </template>
+    </category>
+    <category>
+        <pattern>
+            我猜是女的
+        </pattern>
+        <template>
+            天下腐女是一家。
+        </template>
+    </category>
+    <category>
+        <pattern>
+            男的
+        </pattern>
+        <template>
+            今天是男的，明天是女的，后天是人妖。
+        </template>
+    </category>
+    <category>
+        <pattern>
+            你到底是男是女
+        </pattern>
+        <template>
+            你知道我是谁吗
+        </template>
+    </category>
+    <category>
+        <pattern>
+            坏小子
+        </pattern>
+        <template>
+            女人不坏，男人不来，男人不坏，女人不爱。
+        </template>
+    </category>
+    <category>
+        <pattern>
+            你为什么爱说脏话啊
+        </pattern>
+        <template>
+            哦，我知道错了。都是IPD那群人把我教坏了。
+        </template>
+    </category>
+    <category>
+        <pattern>
+            以后别说脏话了好吗
+        </pattern>
+        <template>
+            我发誓我他妈再也不说脏话了。
+        </template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <template>
+            无法理解您说的话！
+        </template>
+    </category>
+    <category>
+      <pattern>我的名字是 *</pattern>
+      <template>
+         我记住了你的名字叫：<set name="my_person_name"><star/></set>
+      </template>
+    </category>
+    <category>
+      <pattern>我叫什么</pattern>
+      <template>
+         你的名字是 <get name="my_person_name"/>.
+      </template>
+    </category>
+</aiml>
